@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p85</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var hora=prompt('Ingresa una hora utilizando el siguien formato: hh:mm:ss','');
+  var formu=/^(0[1-9]|1\d|2[0-3]):([0-5]\d)(:([0-5]\d))?$/;
+  if (formu.test(hora))
+    alert('Muy bienn!');
+  else
+    alert('hmmm algo salio mal, intentalo otra vez!');
+</script>
+  
+</body>
+</html>
